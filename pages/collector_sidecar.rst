@@ -259,6 +259,7 @@ Step-by-step guide
 
 We have prepared an example how to configure Sidecar in your Browser using the Graylog Webinterface. The assumption is that we will configure the collection of Apache logfiles and ship them with a Filebeat to the already present Beats input that is listening on Port 5044 on your Graylog Server.
 
+.. note:: If you have not yet enabled a Beats input, you will need to do so from ``System → Inputs`` first, or your Graylog Server will not be listening for logs on Port 5044
 
 - The first step is to navigate to the collector configurations. In your Graylog Webinterface click on ``System → Collectors → Manage configurations``. 
 
